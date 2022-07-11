@@ -1,2 +1,6 @@
-# EFT-Hideout-Searcher
-Search for the items to upgrade your Hideout
+# EFT Hideout Searcher
+The website is made using the theme made by the developers at BattleState Games.\
+If there are copyright complains, contact me and i will fix the issue.\
+Thanks to:\
+[BattleState Games](https://www.battlestategames.com)\
+[The Tarkov Fandom](https://escapefromtarkov.fandom.com/)
