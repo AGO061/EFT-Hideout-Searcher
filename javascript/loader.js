@@ -8,7 +8,7 @@ function addseparator(name,color){
 
 function loaditem(itemname,itemdata){
     //worst way to do it, but it works
-    result='<div class="container"><img width="'+itemdata["xblocks"]*64+'" height="'+itemdata["yblocks"]*64+'" class="itemimage" src="'+itemdata["image"]+'"><span class="itemname">'+itemname+'</span><br><span>Required: '+itemdata["qty"]+'</span><br></div>';
+    result='<div class="container"><img class="itemimage" src="'+itemdata["image"]+'"><span class="itemname">'+itemname+'</span><br><span>Required: '+itemdata["qty"]+'</span><br></div>';
     items.innerHTML+=result;
 }
 
