@@ -20,13 +20,27 @@ function clearitems(){
 function loadallitems(filter=""){
     clearitems();
     if (filter==""){
-        addseparator("Hardware","#00ffff");
+        addseparator("Hardware","#996633");
         for (const [key, value] of Object.entries(data.hardware)) {
+            loaditem(key,value);
+        }
+        addseparator("Electronics","#336699");
+        for (const [key, value] of Object.entries(data.electronics)) {
             loaditem(key,value);
         }
     }
     else{
         addseparator("Search Results","#ffffff");
+        for (const [key, value] of Object.entries(data.hardware)) {
+            if (key.toLowerCase().includes(filter.toLowerCase())){
+                loaditem(key,value);
+            }
+        }
+        for (const [key, value] of Object.entries(data.electronics)) {
+            if (key.toLowerCase().includes(filter.toLowerCase())){
+                loaditem(key,value);
+            }
+        }
     }
 }
 
