@@ -283,10 +283,116 @@
             },
         },
         medical:{
+            "Medical bloodset":{
+                "qty":2,
+                "image":"assets/icons/Bloodset.webp",
+            },
+            "Esmarch tourniquet":{
+                "qty":5,
+                "image":"assets/icons/Esmarch.webp",
+            },
+            "Bottle of saline solution":{
+                "qty":7,
+                "image":"assets/icons/NaCl.webp",
+            },
+            "Pack of sodium bicarbonate":{
+                "qty":3,
+                "image":"assets/icons/Bicarbonate.webp",
+            },
+            "Toothpaste":{
+                "qty":1,
+                "image":"assets/icons/Toothpaste.webp",
+            },
+            "Can of Majaica coffee beans":{
+                "qty":3,
+                "image":"assets/icons/Majaica.webp",
+            },
             "LEDX Skin Transilluminator":{
-                "qty":8,
+                "qty":1,
                 "image":"assets/icons/LEDX.webp",
             },
+            "Ophthalmoscope":{
+                "qty":1,
+                "image":"assets/icons/OScope.webp",
+            },
+            "Soap":{
+                "qty":1,
+                "image":"assets/icons/Soap.webp",
+            },
+            "Pile of meds":{
+                "qty":1,
+                "image":"assets/icons/Meds.webp",
+            },
+            "Aseptic bandage":{
+                "qty":1,
+                "image":"assets/icons/Bandage.webp",
+            },
+            "Medical tools":{
+                "qty":3,
+                "image":"assets/icons/MedTools.webp",
+            },
+            "Sewing kit":{
+                "qty":1,
+                "image":"assets/icons/SewingKit.webp",
+            },
+            
+        },
+        valuables:{
+            "Bronze lion":{
+                "qty":4,
+                "image":"assets/icons/Lion.webp",
+            },
+            "Intelligence folder":{
+                "qty":4,
+                "image":"assets/icons/IntelFolder.webp",
+            },
+            "Gold skull ring":{
+                "qty":4,
+                "image":"assets/icons/SkullRing.webp",
+            },
+            "Chainlet":{
+                "qty":2,
+                "image":"assets/icons/Chainlet.webp",
+            },
+            "Golden neck chain":{
+                "qty":8,
+                "image":"assets/icons/GoldChain.webp",
+            },
+            "Roler Submariner gold wrist watch":{
+                "qty":4,
+                "image":"assets/icons/Roler.webp",
+            },
+            "Horse figurine":{
+                "qty":1,
+                "image":"assets/icons/Horse.webp",
+            },
+            "Slim diary":{
+                "qty":3,
+                "image":"assets/icons/SlimDiary.webp",
+            },
+            "Diary":{
+                "qty":3,
+                "image":"assets/icons/Diary.webp",
+            },
+            '"Fierce Hatchling" moonshine':{
+                "qty":1,
+                "image":"assets/icons/Moonshine.webp",
+            },
+            
+        },
+        money:{
+            "Roubles":{
+                "qty":"13'037'000",
+                "image":"assets/icons/Roubles.webp",
+            },
+            "Dollars":{
+                "qty":"25'000",
+                "image":"assets/icons/Dollars.webp",
+            },
+            "Euros":{
+                "qty":"275'000",
+                "image":"assets/icons/Euros.webp",
+            }
         }
 
     }
