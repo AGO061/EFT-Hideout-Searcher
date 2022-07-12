@@ -100,7 +100,37 @@ function loadallitems(filter=""){
         }
     }
 
-    if (!c1 && !c2 && !c3 && !c4 && !c5){
+    c6=false
+    for (const [key, value] of Object.entries(data.skills)) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            c6=true
+        }
+    }
+    if (c6){
+        addseparator("Skills","#cc0000");
+        for (const [key, value] of Object.entries(data.skills)) {
+            if (key.toLowerCase().includes(filter.toLowerCase())){
+                loaditem(key,value);
+            }
+        }
+    }
+
+    c7=false
+    for (const [key, value] of Object.entries(data.traders)) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            c7=true
+        }
+    }
+    if (c7){
+        addseparator("Traders","#6600cc");
+        for (const [key, value] of Object.entries(data.traders)) {
+            if (key.toLowerCase().includes(filter.toLowerCase())){
+                loaditem(key,value);
+            }
+        }
+    }
+
+    if (!c1 && !c2 && !c3 && !c4 && !c5 && !c6){
         addHeader("No Result","#ffffff");
     }
 }

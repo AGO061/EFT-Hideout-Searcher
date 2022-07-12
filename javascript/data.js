@@ -393,6 +393,66 @@
                 "qty":"275'000",
                 "image":"assets/icons/Euros.webp",
             }
+        },
+        skills:{
+            "Endurance":{
+                "qty":"LVL 2",
+                "image":"assets/icons/Endurance.webp",
+            },
+            "Strength":{
+                "qty":"LVL 2",
+                "image":"assets/icons/Strength.webp",
+            },
+            "Vitality":{
+                "qty":"LVL 3",
+                "image":"assets/icons/Vitality.webp",
+            },
+            "Health":{
+                "qty":"LVL 2",
+                "image":"assets/icons/Health.webp",
+            },
+            "Attention":{
+                "qty":"LVL 3",
+                "image":"assets/icons/Attention.webp",
+            },
+            "Memory":{
+                "qty":"LVL 8",
+                "image":"assets/icons/Memory.webp",
+            },
+            "Metabolism":{
+                "qty":"LVL 3",
+                "image":"assets/icons/Metabolism.webp",
+            },
+        },
+        traders:{
+            "Prapor (Pavel Yegorovich Romanenko)":{
+                "qty":"LVL 3",
+                "image":"assets/icons/Prapor.webp",
+            },
+            "Therapist (Elvira Khabibullina)":{
+                "qty":"LVL 3",
+                "image":"assets/icons/Therapist.webp",
+            },
+            "Skier (Alexander Fyodorovich Kiselyov)":{
+                "qty":"LVL 3",
+                "image":"assets/icons/Skier.webp",
+            },
+            "Peacekeeper (Tadeusz Pilsudski)":{
+                "qty":"LVL 4",
+                "image":"assets/icons/Peacekeeper.webp",
+            },
+            "Mechanic (Sergey Arsenyevich Samoylov)":{
+                "qty":"LVL 3",
+                "image":"assets/icons/Mechanic.webp",
+            },
+            "Ragman (Arshavir Sarkisovich Abramyan)":{
+                "qty":"LVL 4",
+                "image":"assets/icons/Ragman.webp",
+            },
+            "Jaeger (Ivan Yegorovich Kharitonov)":{
+                "qty":"LVL 3",
+                "image":"assets/icons/Jaeger.webp",
+            },
         }
 
     }
