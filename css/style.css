@@ -105,3 +105,18 @@ div.underline{
     font-family: 'Bender';
     font-size: xx-large;
 }
+
+#footer{
+    text-align: center;
+    font-size: x-large;
+}
+
+.link{
+    text-decoration: none;
+    color: #9a8866;
+    transition: color 0.2s;
+}
+
+.link:hover{
+    color: #d5b67a;
+}
