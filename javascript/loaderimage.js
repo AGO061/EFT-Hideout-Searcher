@@ -16,6 +16,22 @@ function toUpperFirst(words) {
     return separateWord.join(' ');
  }
 
+ function reverseString(str) {
+    // Step 1. Use the split() method to return a new array
+    var splitString = str.split(""); // var splitString = "hello".split("");
+    // ["h", "e", "l", "l", "o"]
+ 
+    // Step 2. Use the reverse() method to reverse the new created array
+    var reverseArray = splitString.reverse(); // var reverseArray = ["h", "e", "l", "l", "o"].reverse();
+    // ["o", "l", "l", "e", "h"]
+ 
+    // Step 3. Use the join() method to join all elements of the array into a string
+    var joinArray = reverseArray.join(""); // var joinArray = ["o", "l", "l", "e", "h"].join("");
+    // "olleh"
+    
+    //Step 4. Return the reversed string
+    return joinArray; // "olleh"
+}
 
 function addseparator(name,color){
     bgcolor="background: linear-gradient(90deg, rgba(0,0,0,0) 0%, "+color+" 15%, "+color+" 85%, rgba(0,0,0,0) 100%);"
@@ -32,6 +48,12 @@ function addHeader(name,color){
 function loaditem(itemname,itemdata){
     //worst way to do it, but it works
     result='<div class="container"><img class="itemimage" src="'+itemdata["image"]+'"><span>x '+itemdata["qty"]+'</span><br></div>';
+    items.innerHTML+=result;
+}
+
+
+function loadmoney(itemname,itemdata){
+    result='<div class="container"><img class="itemimage" src="'+itemdata["image"]+'"><span>x '+reverseString(reverseString(itemdata["qty"].toString()).match(/.{1,3}/g).join("'"))+'</span><br></div>';
     items.innerHTML+=result;
 }
 
@@ -137,7 +159,7 @@ function loadallitems(filter=""){
         addseparator("Money","#2eb82e");
         for (const [key, value] of Object.entries(newdata["money"])) {
             if (key.toLowerCase().includes(filter.toLowerCase())){
-                loaditem(key,value);
+                loadmoney(key,value);
             }
         }
     }
