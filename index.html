@@ -9,10 +9,15 @@
     <title>EFT Hideout Items</title>
 </head>
 <body>
-
+    <div id="overlay" hidden>
+        <div class="over">Select your current modules values</div>
+        <div class="module" id="Medstation" data-value="0">
+            <span>Medstation</span><button class="" id="Medstation0" onclick="changevalue('Medstation',0)">0</button>
+        </div>
+    </div>
     
 
-    <input type="text" id="search" placeholder="Type an item name..."><button onclick="loadallitems(document.getElementById('search').value);">Search</button>
+    <div id="searchoverlay"><input type="text" id="search" placeholder="Type an item name..."><button onclick="loadallitems(document.getElementById('search').value);">Search</button> <button onclick="loadallmodules();">Calculate from Hideout</button></div>
     <!--
         <div class="container">This is some text</div>
     <div class="section"><span class="sectiontitle">TEXT</span><div class="underline"></div></div>
@@ -26,6 +31,7 @@
         <p>Thanks to <a href="https://escapefromtarkov.fandom.com" class="link">The Tarkov Fandom Wiki</a> for the images and item lists</p>
         <p>This website is NOT affiliated with BattleState Games.<br>it's a community driven project.</p>
         <p>The source of this website is avaliable on <a class="link" href="https://github.com/AGO061/EFT-Hideout-Searcher">GitHub</a> under MIT licence (the "assets" folder requires attribution to their respective owners)</p>
+        <p>Thanks to DisX11 for helping compiling the data arrays!</p>
     </div>
     
 

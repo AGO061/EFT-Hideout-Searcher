@@ -1,9 +1,9 @@
-    data={hardware:{
-            "Bulbex":{
+data={"hardware":{
+            "Bulbex cable cutter":{
                 "qty":1,
                 "image":"assets/icons/Bulbex.webp",
             },
-            "Military corrugated Tube":{
+            "Military corrugated tube":{
                 "qty":5,
                 "image":"assets/icons/MTube.webp",
             },
@@ -28,7 +28,7 @@
                 "image":"assets/icons/Ratchet.webp",
             },
             "Tech manual":{
-                "qty":1,
+                "qty":5,
                 "image":"assets/icons/Manual.webp",
             },
             "Factory plan map":{
@@ -55,7 +55,7 @@
                 "qty":16,
                 "image":"assets/icons/Nails.webp",
             },
-            "Gas filters":{
+            "Gas mask air filter":{
                 "qty":5,
                 "image":"assets/icons/GasMaskFilter.webp",
             },
@@ -147,7 +147,11 @@
                 "qty":4,
                 "image":"assets/icons/Wrench.webp",
             },
-            "Pliers elite":{
+            'Set of files "Master"':{
+                "qty":1,
+                "image":"assets/icons/Files.webp",
+            },
+            "Pliers Elite":{
                 "qty":5,
                 "image":"assets/icons/Elite.webp",
             },
@@ -163,7 +167,7 @@
                 "qty":2,
                 "image":"assets/icons/Thermite.webp",
             },
-            "WD-40 100ml":{
+            "WD-40 (100ml)":{
                 "qty":5,
                 "image":"assets/icons/WD40-100ml.webp",
             },
@@ -180,9 +184,9 @@
                 "image":"assets/icons/Shustrilo.webp",
             }
         },
-        electronics:{
+        "electronics":{
             "Secured magnetic tape cassette":{
-                "qty":1,
+                "qty":2,
                 "image":"assets/icons/SMT.webp",
             },
             "CPU fan":{
@@ -222,7 +226,7 @@
                 "image":"assets/icons/Magnet.webp",
             },
             "Power cord":{
-                "qty":18,
+                "qty":22,
                 "image":"assets/icons/Cord.webp",
             },
             "Printed circuit board":{
@@ -242,7 +246,7 @@
                 "image":"assets/icons/FlashDrive.webp",
             },
             "Bundle of wires":{
-                "qty":59,
+                "qty":64,
                 "image":"assets/icons/Wires.webp",
             },
             "Working LCD":{
@@ -266,7 +270,7 @@
                 "image":"assets/icons/TankBattery.webp",
             },
             "Military cable":{
-                "qty":14,
+                "qty":15,
                 "image":"assets/icons/MCable.webp",
             },
             "Phased array element":{
@@ -278,11 +282,11 @@
                 "image":"assets/icons/PFilter.webp",
             },
             "GreenBat lithium battery":{
-                "qty":17,
+                "qty":5,
                 "image":"assets/icons/GreenBat.webp",
             },
         },
-        medical:{
+        "medical":{
             "Medical bloodset":{
                 "qty":2,
                 "image":"assets/icons/Bloodset.webp",
@@ -302,6 +306,10 @@
             "Toothpaste":{
                 "qty":1,
                 "image":"assets/icons/Toothpaste.webp",
+            },
+            "Disposable syringe":{
+                "qty":1,
+                "image":"assets/icons/Syringe.webp",
             },
             "Can of Majaica coffee beans":{
                 "qty":3,
@@ -324,7 +332,7 @@
                 "image":"assets/icons/Meds.webp",
             },
             "Aseptic bandage":{
-                "qty":1,
+                "qty":2,
                 "image":"assets/icons/Bandage.webp",
             },
             "Medical tools":{
@@ -332,14 +340,22 @@
                 "image":"assets/icons/MedTools.webp",
             },
             "Sewing kit":{
-                "qty":1,
+                "qty":2,
                 "image":"assets/icons/SewingKit.webp",
+            },
+            "Bottle of OLOLO Multivitamins":{
+                "qty":1,
+                "image":"assets/icons/OLOLO.webp",
+            },
+            "Can of white salt":{
+                "qty":1,
+                "image":"assets/icons/WhiteSalt.webp",
             },
             
         },
-        valuables:{
+        "valuables":{
             "Bronze lion":{
-                "qty":4,
+                "qty":3,
                 "image":"assets/icons/Lion.webp",
             },
             "Intelligence folder":{
@@ -347,7 +363,7 @@
                 "image":"assets/icons/IntelFolder.webp",
             },
             "Gold skull ring":{
-                "qty":4,
+                "qty":6,
                 "image":"assets/icons/SkullRing.webp",
             },
             "Chainlet":{
@@ -366,35 +382,43 @@
                 "qty":1,
                 "image":"assets/icons/Horse.webp",
             },
+            "Golden rooster":{
+                "qty":1,
+                "image":"assets/icons/GoldenRooster.webp",
+            },
             "Slim diary":{
-                "qty":3,
+                "qty":2,
                 "image":"assets/icons/SlimDiary.webp",
             },
             "Diary":{
-                "qty":3,
+                "qty":2,
                 "image":"assets/icons/Diary.webp",
             },
-            '"Fierce Hatchling" moonshine':{
+            "BakeEzy cook book":{
                 "qty":1,
+                "image":"assets/icons/BakeEzy.webp",
+            },
+            '"Fierce Hatchling" moonshine':{
+                "qty":3,
                 "image":"assets/icons/Moonshine.webp",
             },
             
         },
-        money:{
+        "money":{
             "Roubles":{
-                "qty":"13'037'000",
+                "qty":13037000,
                 "image":"assets/icons/Roubles.webp",
             },
             "Dollars":{
-                "qty":"25'000",
+                "qty":25000,
                 "image":"assets/icons/Dollars.webp",
             },
             "Euros":{
-                "qty":"275'000",
+                "qty":275000,
                 "image":"assets/icons/Euros.webp",
             }
         },
-        skills:{
+        "skills":{
             "Endurance":{
                 "qty":"LVL 2",
                 "image":"assets/icons/Endurance.webp",
@@ -424,7 +448,7 @@
                 "image":"assets/icons/Metabolism.webp",
             },
         },
-        traders:{
+        "traders":{
             "Prapor (Pavel Yegorovich Romanenko)":{
                 "qty":"LVL 3",
                 "image":"assets/icons/Prapor.webp",
@@ -455,4 +479,455 @@
             },
         }
 
+}
+
+modules={
+	"air-filtering-unit":{
+        1:{
+            requirements:{
+                "Gas mask air filter":5,
+				"Dollars":25000,
+                "Military power filter":5,
+                "Military corrugated tube":3
+            }
+        }
+    },
+	"bitcoin-farm":{
+        1:{
+            requirements:{
+                "T-Shaped plug":5,
+                "VPX Flash Storage Module":1,
+                "Power cord":10,
+                "Power supply unit":10,
+				"CPU fan":15
+            }
+        },
+		2:{
+            requirements:{
+				"CPU fan":15,
+				"Power supply unit":10,
+				"Printed circuit board":15,
+				"Phase control relay":5,
+				"Military power filter":2
+            }
+        },
+		3:{
+            requirements:{
+				"CPU fan":25,
+                "Silicone tube":15,
+                "Electric motor":10,
+                "Pressure gauge":10,
+                "6-STEN-140-M military battery":1
+            }
+        }
+    },
+	"booze-generator":{
+        1:{
+            requirements:{
+                "Metal spare parts":2,
+                "Pressure gauge":2,
+                "Radiator helix":3,
+                "Silicone tube":4,
+				"Pipe grip wrench":1,
+				"Analog thermometer":2,
+				"Corrugated hose":5
+            }
+        }
+    },
+	"generator":{
+        1:{
+            requirements:{
+                "Spark plug":1,
+                "Roubles":100000
+                
+            }
+        },
+		2:{
+            requirements:{
+				"Bulbex cable cutter":1,
+				"Phase control relay":5,
+				"Electric motor":1,
+				"Bundle of wires":15
+            }
+        },
+		3:{
+            requirements:{
+				"Power supply unit":5,
+                "Phase control relay":6,
+                "Electric motor":3,
+                "Spark plug":10,
+                "Metal spare parts":7
+            }
+        }
+    },
+	"heating":{
+        1:{
+            requirements:{
+                "Roubles":25000,
+				"Classic matches":2
+            }
+        },
+		2:{
+            requirements:{
+				"Dry fuel":3,
+				"Roubles":50000,
+				"Hunting matches":2,
+				"Crickent lighter":3
+            }
+        },
+		3:{
+            requirements:{
+				"Radiator helix":8,
+                "Bundle of wires":8,
+                "Phase control relay":4,
+                "Military corrugated tube":2
+            }
+        }
+    },
+	"illumination":{
+        1:{
+            requirements:{
+                "Roubles":10000,
+				"Crickent lighter":1
+            }
+        },
+		2:{
+            requirements:{
+				"Light bulb":14,
+				"Bundle of wires":10
+            }
+        },
+		3:{
+            requirements:{
+				"Roubles":50000,
+				"Capacitors":7,
+                "Energy-saving lamp":12,
+                "Bundle of wires":6
+            }
+        }
+    },
+	"intelligence-center":{
+        1:{
+            requirements:{
+                "Factory plan map":1,
+				"Intelligence folder":1,
+				"Topographic survey map":1
+            }
+        },
+		2:{
+            requirements:{
+				"Intelligence folder":3,
+				"Secure Flash drive":3,
+				"Power cord":7,
+				"Damaged hard drive":4
+            }
+        },
+		3:{
+            requirements:{
+				"Military COFDM Wireless Signal Transmitter":2,
+				"VPX Flash Storage Module":2,
+                "Military cable":5,
+                "Military flash drive":5,
+				"Secured magnetic tape cassette":2
+            }
+        }
+    },
+	"lavatory":{
+        1:{
+            requirements:{
+                "Roubles":2000,
+				"Toilet paper":1,
+				"Toothpaste":1,
+				"Soap":1,
+				"Awl":1
+            }
+        },
+		2:{
+            requirements:{
+				"KEKTAPE duct tape":1,
+				"Corrugated hose":3,
+				"Pack of screws":5,
+				"Electric drill":1,
+				"Sewing kit":2
+            }
+        },
+		3:{
+            requirements:{
+				"Xenomorph sealing foam":3,
+				"Corrugated hose":6,
+                "Pressure gauge":2,
+                "Toolset":1
+            }
+        }
+    },
+    "library":{
+        1:{
+            requirements:{
+                "BakeEzy cook book":1,
+                "Slim diary":2,
+                "Diary":2,
+                "Tech manual":5,
+                "Chainlet":2,
+                "Horse figurine":1,
+                "Roubles":400000
+            }
+        }
+    },
+
+    "medstation":{
+        1:{
+            requirements:{
+                "Roubles":50000,
+                "Disposable syringe":1,
+                "Pile of meds":1,
+                "Aseptic bandage":2,
+                "Bottle of OLOLO Multivitamins":1,
+            }
+        },
+        2:{
+            requirements:{
+                "Roubles":150000,
+                "Bottle of saline solution":3,
+                "Medical bloodset":2,
+                "Esmarch tourniquet":5,
+                "Medical tools":3,
+            }
+        },
+        3:{
+            requirements:{
+                "Ophthalmoscope":1,
+                "Roubles":500000,
+                "Bottle of saline solution":4,
+                "LEDX Skin Transilluminator":1,
+            }
+        },
+    },
+
+    "nutrition-unit":{
+        1:{
+            requirements:{
+                "Roubles":25000,
+                "Can of white salt":1,
+                "Power cord":1,
+                "Phase control relay":2,
+            }
+        },
+        2:{
+            requirements:{
+                "Wrench":4,
+                "Corrugated hose":2,
+                "Alkaline cleaner for heat exchangers":2,
+                "Phase control relay":1,
+            }
+        },
+        3:{
+            requirements:{
+                "Roubles":125000,
+                "Can of Majaica coffee beans":3,
+                "Pack of sodium bicarbonate":3,
+                "Smoked Chimney drain cleaner":2,
+            }
+        },
+    },
+
+    "rest-space":{
+        1:{
+            requirements:{
+                "Roubles":10000,
+                "Duct tape":1,
+                "Classic matches":1,
+            }
+        },
+        2:{
+            requirements:{
+				"Energy-saving lamp":3,
+                "Roubles":35000,
+                "DVD drive":1,
+                "Magnet":1,
+            }
+        },
+        3:{
+            requirements:{
+                "Bundle of wires":7,
+                "GreenBat lithium battery":5,
+                "Power cord":4,
+                "Capacitors":5,
+            }
+        },
+    },
+
+    "scav-case":{
+        1:{
+            requirements:{
+                "Lucky Scav Junk box":1,
+                "Golden rooster":1,
+                '"Fierce Hatchling" moonshine':3,
+                "Roler Submariner gold wrist watch":4,
+                "Golden neck chain":8,
+                "Gold skull ring":6,
+                "Bronze lion":3,
+            }
+        }
+    },
+
+    "security":{
+        1:{
+            requirements:{
+                "Roubles":20000,
+                "Construction measuring tape":1,
+            }
+        },
+        2:{
+            requirements:{
+                "Roubles":45000,
+                "Pliers Elite":1,
+                "TP-200 TNT brick":1,
+                "WD-40 (100ml)":1,
+            }
+        },
+        3:{
+            requirements:{
+                "NIXXOR lens":8,
+                "Working LCD":2,
+                "Bundle of wires":4,
+                "SSD drive":1,
+            }
+        }
+    },
+
+    "shooting-range":{
+        1:{
+            requirements:{
+                "Metal spare parts":2,
+                "Pack of screws":2,
+                "Duct tape":3,
+                "Bolts":5,
+                "Screw nuts":5,
+                "Pack of nails":4,
+            }
+        }
+    },
+
+    "solar-power":{
+        1:{
+            requirements:{
+                "Phased array element":4,
+                "Euros":75000,
+                "Working LCD":3,
+                "Military cable":10,
+                "Military power filter":10,
+            }
+        }
+    },
+	"stash":{
+        1:{
+            requirements:{
+                "Roubles":0
+            },
+        },
+		2:{
+            requirements:{
+				"WD-40 (100ml)":4,
+				"Hand drill":1,
+				"Pack of nails":5,
+				"Pack of screws":10,
+                "Roubles":2500000
+            }
+        },
+		3:{
+            requirements:{
+				"Electric drill":2,
+				"Pack of screws":15,
+				"Pack of nails":7,
+                "Roubles":8500000
+            }
+        },
+		4:{
+            requirements:{
+				"Euros":200000,
+				"Screw nuts":10,
+				"Bolts":10,
+                "Shustrilo sealing foam":5,
+				"Ratchet wrench":2,
+            }
+        }
+    },
+	"vents":{
+        1:{
+            requirements:{
+                "Roubles":25000
+        
+            }
+        },
+		2:{
+            requirements:{
+				"Metal spare parts":2,
+				"CPU fan":3,
+				"Car battery":1,
+				"Electric motor":1
+            }
+        },
+		3:{
+            requirements:{
+				"Printed circuit board":5,
+				"Electric motor":4,
+				"Metal spare parts":5,
+                "Bundle of wires":14,
+				"Car battery":4,
+            }
+        }
+    },
+	"water-collector":{
+        1:{
+            requirements:{
+                "Duct tape":3,
+				"Screw nuts":5,
+				"Bolts":5,
+				"Corrugated hose":4
+            }
+        },
+		2:{
+            requirements:{
+				"Toolset":2,
+				"Corrugated hose":6,
+				"Electric motor":2,
+				"KEKTAPE duct tape":2
+            }
+        },
+		3:{
+            requirements:{
+				"Ratchet wrench":1,
+				"Roubles":20000,
+				"Pliers Elite":2,
+                "Shustrilo sealing foam":5
+            }
+        }
+    },
+	"workbench":{
+        1:{
+            requirements:{
+                "Screw nuts":2,
+				"Bolts":2,
+				"Leatherman Multitool":1
+            }
+        },
+		2:{
+            requirements:{
+				"Bolts":6,
+				"Toolset":3,
+				'Set of files "Master"':1,
+				"Electric drill":2,
+				"Weapon parts":3
+            }
+        },
+		3:{
+            requirements:{
+				"Roubles":395000,
+				"Pliers Elite":2,
+                "FireKlean gun lube":1,
+                "Can of thermite":2
+            }
+        }
     }
+
+}
