@@ -54,17 +54,17 @@ button.disabled{
 
 #items{
     display: inline-block;
+    align-items: center;
+    text-align: center;
 }
 
 div.container {
     margin:5px;
     border-radius:10px;
-    background: url(../assets/news_bg.png) repeat top left scroll;
     color: #aeaeb0;
     font-family: "Neusa";
-    font-size:larger;
+    font-size:40px;
     overflow: auto;
-    width: 400px;
     padding: 20px;
     display: inline-block;
 }
@@ -113,7 +113,7 @@ div.underline{
 
 .itemname {
     font-family: 'Bender';
-    font-size: large    ;
+    font-size: large;
 }
 
 #footer{

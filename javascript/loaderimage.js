@@ -31,7 +31,7 @@ function addHeader(name,color){
 
 function loaditem(itemname,itemdata){
     //worst way to do it, but it works
-    result='<div class="container"><img class="itemimage" src="'+itemdata["image"]+'"><span class="itemname">'+itemname+'</span><br><span>Required: '+itemdata["qty"]+'</span><br></div>';
+    result='<div class="container"><img class="itemimage" src="'+itemdata["image"]+'"><span>x '+itemdata["qty"]+'</span><br></div>';
     items.innerHTML+=result;
 }
 
@@ -178,11 +178,6 @@ function loadallitems(filter=""){
 }
 
 
-function closeprompt(){
-    var div=document.getElementById("overlay");
-    div.hidden=true;
-    loadallitems();
-}
 
 
 function changevalue(id,value){
