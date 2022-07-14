@@ -53,7 +53,7 @@ function loaditem(itemname,itemdata){
 
 
 function loadmoney(itemname,itemdata){
-    result='<div class="container"><img class="itemimage" src="'+itemdata["image"]+'"><span>x '+reverseString(reverseString(itemdata["qty"].toString()).match(/.{1,3}/g).join("'"))+'</span><br></div>';
+    result='<div class="container"><img class="itemimage" src="'+itemdata["image"]+'"><span>x '+reverseString(reverseString(itemdata["qty"].toString()).match(/.{1,3}/g).join("."))+'</span><br></div>';
     items.innerHTML+=result;
 }
 
