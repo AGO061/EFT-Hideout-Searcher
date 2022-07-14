@@ -931,3 +931,18 @@ modules={
     }
 
 }
+
+
+
+quests={
+    "prapor":{
+        "image":"assets/icons/Prapor.webp",
+        "items":{
+            "MP-133":{
+                "qty":2,
+                "image":"assets/icons/MP-133.webp",
+                "FiR":false
+            }
+        }
+    }
+}

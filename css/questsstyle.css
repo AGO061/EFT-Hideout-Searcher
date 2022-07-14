@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Bender;
+    src: url("../font/bender.otf") format("opentype");
+}
+@font-face {
+    font-family: Neusa;
+    src: url("../font/neusa-demibold.otf") format("opentype");
+}
+
+html{
+    background-color: #111111;
+    font-family: 'Bender';
+    color: #aeaeb0;
+    font-size: larger;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ae9b76;
+    border-radius: 10px;
+  }
+
+
+.topside{
+    text-align: center;
+}
+
+.fullquests{
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background-color: #5a4f38;
+    outline-style: outset;
+    outline-color: #d2bc91;
+    border-radius: 3px;
+}
+
+.item{
+    text-align: center;
+    object-fit: fill;
+}
+
+.itemimage{
+    vertical-align: middle;
+}
+
+.quantity{
+    text-align: left;
+    font-size: xx-large;
+    vertical-align: middle;
+    padding:0 5px 0 5px;
+    
+}
+
+.highlighted{
+    background-color: rgba(13, 255, 0, 0.2);
+}
+
+.traderimage{
+    border-radius: 4px;
+}
