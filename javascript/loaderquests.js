@@ -17,7 +17,7 @@ function loaditem(trader,item){
     if (quests[trader]["items"][item]["FiR"]){
         highlight=" highlighted";
     }
-    return '<span class="item"><img class="itemimage" src="'+quests[trader]["items"][item]["image"]+'" alt=""><span class="quantity'+highlight+'">x '+quests[trader]["items"][item]["qty"]+'</span></span>'
+    return '<span class="item'+highlight+'"><img class="itemimage" src="'+quests[trader]["items"][item]["image"]+'" alt=""><span class="quantity">x '+quests[trader]["items"][item]["qty"]+'</span></span><br>'
 }
 
 function creatediv(trader){

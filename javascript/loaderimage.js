@@ -65,7 +65,7 @@ function clearitems(){
 
 function loadallitems(filter=""){
     //redefine pricing
-    var newdata=data
+    var newdata=dataimage
     //console.log(newdata);
     for (const [key, value] of Object.entries(levels)) {
         if (value!=0){
@@ -89,113 +89,96 @@ function loadallitems(filter=""){
         }
     }
     clearitems();
-    c1=false
-    for (const [key, value] of Object.entries(newdata["hardware"])) {
-        if (key.toLowerCase().includes(filter.toLowerCase())){
-            c1=true
-        }
-    }
-    if (c1){
-        addseparator("Hardware","#996633");
-        for (const [key, value] of Object.entries(newdata["hardware"])) {
-            if (key.toLowerCase().includes(filter.toLowerCase())){
-                loaditem(key,value);
-            }
-        }
-    }
 
-    c2=false
+    addseparator("Building Materials","#996633");
+    for (const [key, value] of Object.entries(newdata["building-materials"])) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            loaditem(key,value);
+        }
+    }
+    addseparator("Electronics","#336699");
     for (const [key, value] of Object.entries(newdata["electronics"])) {
         if (key.toLowerCase().includes(filter.toLowerCase())){
-            c2=true
+            loaditem(key,value);
         }
     }
-    if (c2){
-        addseparator("Electronics","#336699");
-        for (const [key, value] of Object.entries(newdata["electronics"])) {
-            if (key.toLowerCase().includes(filter.toLowerCase())){
-                loaditem(key,value);
-            }
+    addseparator("Energy Elements","#00FF5D");
+    for (const [key, value] of Object.entries(newdata["energy-elements"])) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            loaditem(key,value);
         }
     }
-
-    c3=false
+    addseparator("Flammable Materials","#FF5A00");
+    for (const [key, value] of Object.entries(newdata["flammable-materials"])) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            loaditem(key,value);
+        }
+    }
+    addseparator("Household Materials","#BDA100");
+    for (const [key, value] of Object.entries(newdata["household-materials"])) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            loaditem(key,value);
+        }
+    }
+    addseparator("Tools","#0073FF");
+    for (const [key, value] of Object.entries(newdata["tools"])) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            loaditem(key,value);
+        }
+    }
+    addseparator("Info Items","#FCFF9A");
+    for (const [key, value] of Object.entries(newdata["info-items"])) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            loaditem(key,value);
+        }
+    }
+    addseparator("Medical","#e6ffff");
     for (const [key, value] of Object.entries(newdata["medical"])) {
         if (key.toLowerCase().includes(filter.toLowerCase())){
-            c3=true
+            loaditem(key,value);
         }
     }
-    if (c3){
-        addseparator("Medical","#e6ffff");
-        for (const [key, value] of Object.entries(newdata["medical"])) {
-            if (key.toLowerCase().includes(filter.toLowerCase())){
-                loaditem(key,value);
-            }
+    addseparator("Consumables","#D159FF");
+    for (const [key, value] of Object.entries(newdata["consumables"])) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            loaditem(key,value);
         }
     }
-
-    c4=false
+    addseparator("Containers","#FF0043");
+    for (const [key, value] of Object.entries(newdata["containers"])) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            loaditem(key,value);
+        }
+    }
+    addseparator("Valuables","#ffcc00");
     for (const [key, value] of Object.entries(newdata["valuables"])) {
         if (key.toLowerCase().includes(filter.toLowerCase())){
-            c4=true
+            loaditem(key,value);
         }
     }
-    if (c4){
-        addseparator("Valuables","#ffcc00");
-        for (const [key, value] of Object.entries(newdata["valuables"])) {
-            if (key.toLowerCase().includes(filter.toLowerCase())){
-                loaditem(key,value);
-            }
+    addseparator("Others","#B5B5B5");
+    for (const [key, value] of Object.entries(newdata["others"])) {
+        if (key.toLowerCase().includes(filter.toLowerCase())){
+            loaditem(key,value);
         }
     }
-
-    c5=false
+    addseparator("Money","#2eb82e");
     for (const [key, value] of Object.entries(newdata["money"])) {
         if (key.toLowerCase().includes(filter.toLowerCase())){
-            c5=true
+            loadmoney(key,value);
         }
     }
-    if (c5){
-        addseparator("Money","#2eb82e");
-        for (const [key, value] of Object.entries(newdata["money"])) {
-            if (key.toLowerCase().includes(filter.toLowerCase())){
-                loadmoney(key,value);
-            }
-        }
-    }
-
-    c6=false
+    addseparator("Skills","#cc0000");
     for (const [key, value] of Object.entries(newdata["skills"])) {
         if (key.toLowerCase().includes(filter.toLowerCase())){
-            c6=true
+            loaditem(key,value);
         }
     }
-    if (c6){
-        addseparator("Skills","#cc0000");
-        for (const [key, value] of Object.entries(newdata["skills"])) {
-            if (key.toLowerCase().includes(filter.toLowerCase())){
-                loaditem(key,value);
-            }
-        }
-    }
-
-    c7=false
+    addseparator("Traders","#6600cc");
     for (const [key, value] of Object.entries(newdata["traders"])) {
         if (key.toLowerCase().includes(filter.toLowerCase())){
-            c7=true
+            loaditem(key,value);
         }
-    }
-    if (c7){
-        addseparator("Traders","#6600cc");
-        for (const [key, value] of Object.entries(newdata["traders"])) {
-            if (key.toLowerCase().includes(filter.toLowerCase())){
-                loaditem(key,value);
-            }
-        }
-    }
-
-    if (!c1 && !c2 && !c3 && !c4 && !c5 && !c6 && !c7){
-        addHeader("No Result","#ffffff");
     }
 }
 
